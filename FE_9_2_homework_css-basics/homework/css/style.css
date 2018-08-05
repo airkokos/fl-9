@@ -1,0 +1,182 @@
+/*№1*/
+@media print {
+	.tm-sidebar,#about,.heading,.blocks,#ideas,section.tm-content-box {
+		display:none;
+	}
+	
+    .tm-banner {
+        height: 250px;   
+    }
+	
+    .tm-main-content {
+        display: block;
+        margin: 0 auto;
+    }
+	
+    .tm-content-box {
+        display: block;
+        width: 100%;
+        position: relative;
+    }
+	
+    .flex-item {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0px;
+    }
+	
+    div.flex-item>img {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+    }
+	
+    footer {
+        position: absolute;
+        bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+    }
+	
+}
+
+@media screen {	
+
+/* №2 */	
+ 
+	.thumbnail  {
+		border-radius: 50%;
+	}
+
+	.tm-section-title-box:hover {
+		background-color: #64B5F6;
+		font-weight: bold;
+		font-size: 2.5em;
+		color: white;
+	}
+
+/* №3 */
+
+	P:first-letter {
+		color: #76cdd7;
+		font-size: 30px;
+	}						
+						
+/* №4 */
+
+	.tm-sidebar,.tm-content-box  {
+		box-shadow: 0 0 15px grey;
+	}	
+	
+/* №5 */
+
+     #home::before, section::before {
+        content: "";
+        display: inline-block;
+        border-top: 25px solid #2196F3;
+        border-right: 125px solid transparent;
+    } 
+					 						 
+/* №6 */
+
+	.carousel-item .tm-section-title {
+		color: gainsboro;
+		letter-spacing: 5px;
+	}	
+
+/* №7 */
+
+	h2 + p {
+		font-style: italic;
+	} 	 
+	
+/* №8 */
+
+	p:not(.tm-banner-text) {
+		line-height: 30px;
+		text-indent: 20px;   
+	}
+
+/* 9 */
+	
+	.heading h2 {
+        text-align: center;
+        color: #64B5F6;
+    }
+	
+    .pad  a {
+        color: black;
+    }
+	
+	.pad  a:visited {
+        color: silver;
+    }
+	
+    .pad  a:hover {
+        text-decoration-line: underline;
+        text-decoration-style: double;
+        color: #64B5F6	;
+    }
+	
+	.pad .text::after {
+        content: "New";
+        color: red;
+        font-size: 70%;
+        vertical-align: text-top;
+    }
+	
+/* 10 */
+	
+	.box h2 {
+        font-size: 50px;
+        text-align: left;
+    }
+	
+	.box p {
+        text-indent: initial;
+        font-size: 25px;
+        color: grey;
+        text-align: left;
+    }
+	
+	.box p::first-letter {
+        color: black;
+	}
+	
+	.blocks li.box:nth-child(odd) {
+        background: Gainsboro;
+    }    
+
+/* 11 */
+	
+	.tm-nav-item:not(:last-of-type) {
+        border-bottom-color: silver;
+		border-bottom-style: dotted;
+		border-bottom-width: medium;
+    }
+
+/* 12 */
+
+	.contact-form [type=text],
+    .contact-form [type=submit] {
+        color: red;
+    }	
+	
+   .mandatory-field::after {
+        content: "*";
+        color: red;
+    }
+	
+     .submit-btn:hover {
+        color: white;
+        background: #64B5F6	;
+		border-color: #64B5F6;
+    }
+   
+} 
+
