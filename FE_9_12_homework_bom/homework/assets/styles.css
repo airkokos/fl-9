@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: serif;
+  }
+  h1,  #todo-notification {
+    text-align: center;
+  }
+  h1 {
+    font-weight: normal;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #root {
+    width: 500px; 
+    height: 700px;
+    margin: auto;
+    position: relative;
+    padding-top: 50px;
+  }
+   #addButton {
+    display: block;
+    margin: auto;
+  }
+  
